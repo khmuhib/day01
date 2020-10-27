@@ -1,0 +1,109 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.mid {
+	width: 80%;
+	background-color: red;
+	margin: auto;
+	text-align: center;
+}
+
+.mid ul li {
+	display: inline-block;
+	position: relative;
+}
+
+.mid ul li a {
+	padding: 10px 20px;
+	display: block;	
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+.mid ul li a:hover {
+	background-color: green;
+	color: red;
+}
+
+.mid ul li:hover ul{
+	display: block;
+}
+
+.mid ul li ul{
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	background-color: black;
+	display: none;
+}
+
+.mid ul li ul li{
+	width: 200px;
+}
+
+.mid ul li ul li a:hover {
+	background-color: navy;
+	color: red;
+}
+
+
+.mid ul li ul li ul {
+	position: absolute;
+	left: 100%;
+	top: 0px;
+	background-color: lightblue;
+	display: none !important;
+}
+
+.mid ul li ul li ul li a:hover{
+	background-color: green;
+	color: white;
+
+}
+
+.mid ul li ul li:hover ul {
+	display: block !important;
+}
+
+
+.aa{
+	background-color: red;
+	margin: auto;
+	width: 50%;
+	margin-top: 50px;
+	height: 200px;
+	text-align: center;
+}
+
+
+.aa ul li a {
+	color: white;
+	font-size: 20px;
+	background-color: blue;
+	height: 50px;
+	width: 50px;
+	display: block;
+}
+
+.aa ul {
+	background-color: gray;
+}
+
+.aa ul li {
+	background-color: green;
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+}
+
